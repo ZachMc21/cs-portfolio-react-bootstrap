@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.scss';
-import './components/pageHeader.js';
+import './components/PageHeader.tsx';
+import React from 'react';
+import PageHeader from './components/PageHeader';
 
 function App() {
-  return (
     <div className="App">
-        
+        <PageHeader />
         {/*
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
@@ -23,7 +24,6 @@ function App() {
         </header>
     */}
     </div>
-  );
 }
 
 export default App;
