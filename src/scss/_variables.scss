@@ -1,8 +1,19 @@
 
+//Colors
 $navy-blue: rgb(9, 29, 58);
 $light-blue: rgb(203, 239, 252);
 $gray-blue: rgb(169, 199, 210);
 $dark-gray: rgb(79, 79, 79);
+
+//Media queries (window sizes)
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
 
 /* import bootstrap to set changes */
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
