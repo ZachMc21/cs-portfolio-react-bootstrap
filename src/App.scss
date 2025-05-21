@@ -1,1 +1,31 @@
 @import "scss/_variables.scss";
+
+//Portrait phones (xs = 0px to 575.98px)
+@include media-breakpoint-only(xs) {
+    
+}
+
+//Landscape phones (sm = 576px to 768.98px)
+@include media-breakpoint-only(sm) {
+    
+}
+
+//Tablets (md = 768px to 991.98px)
+@include media-breakpoint-only(md) {
+    
+}
+
+//Laptops and desktops (lg = 992px to 1199.98px)
+@include media-breakpoint-only(lg) {
+    
+}
+
+//Large desktops (xl = 1200px to 1399.98px)
+@include media-breakpoint-only(xl) {
+    
+}
+
+//Ultrawide (xl = 1400px+)
+@include media-breakpoint-only(xxl) {
+    
+}
